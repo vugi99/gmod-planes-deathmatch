@@ -1,0 +1,13 @@
+"planes_deathmatch"
+{
+	"base"		"base"
+	"title"		"Planes Deathmatch"
+	"maps"		"^pldm_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+
+	}
+
+}

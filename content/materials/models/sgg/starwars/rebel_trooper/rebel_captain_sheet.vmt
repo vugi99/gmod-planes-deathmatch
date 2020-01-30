@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/SGG\starwars\rebel_trooper/rebel_captain_sheet"
+	"$bumpmap" "models/SGG\starwars\rebel_trooper/rebel_sheet_normal"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongexponenttexture" "models/SGG\starwars\rebel_trooper/rebel_sheet_exp"
+	"$phongexponent" "10"
+	"$phongboost"	".02"
+	"$phongfresnelranges"	"[.25 0.25 .25]"
+}

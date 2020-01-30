@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\SGG\starwars\rebel_trooper/mike_facemap3"
+                "$bumpmap"     "models\SGG\starwars\rebel_trooper/mike_facemap_n"
+                "$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "3"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+}

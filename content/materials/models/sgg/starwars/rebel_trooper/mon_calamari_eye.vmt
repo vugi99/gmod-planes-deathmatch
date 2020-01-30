@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"               "models\SGG\starwars\rebel_trooper/mon_calamari_eye"
+	"$bumpmap"               "models\SGG\starwars\rebel_trooper/mon_calamari_eye_normal"
+	"$Envmap"             "Engine/eye-reflection-cubemap-"    // Reflection environment map
+
+	"$halflambert" "1"
+	"$nodecal" "1"
+}

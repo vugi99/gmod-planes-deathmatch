@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" 	"models\SGG\starwars\rebel_trooper/mon_calamari_head4"
+	"$bumpmap"	"models\SGG\starwars\rebel_trooper/mon_calamari_head_normal"
+ 	"$phong" "1"
+	"$phongexponenttexture" "models/SGG\starwars\rebel_trooper/mon_calamari_head"
+	"$phongexponent" "8"
+	"$phongboost"	".1"
+	"$phongfresnelranges"	"[1 1 1]"
+}

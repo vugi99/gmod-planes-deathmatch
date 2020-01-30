@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+  	"$baseTexture" "models/SGG\starwars\rebel_trooper/rodian_head"
+	"$bumpmap" "models/SGG\starwars\rebel_trooper/rodian_head_normal"
+	"$phong" "1"
+	"$halflambert" "1"
+	"$phongexponenttexture" "models/SGG\starwars\rebel_trooper/rodian_head"
+	"$phongexponent" "10"
+	"$phongboost"	".5"
+	"$phongfresnelranges"	"[.25 0.25 .25]"
+}

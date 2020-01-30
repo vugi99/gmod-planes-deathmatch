@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGG\Starwars\Rebel_trooper\helmet_forest"
+	"$bumpmap" "models\SGG\Starwars\Rebel_trooper\helmet_soldier_normal"
+	"$halflambert" "1"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponenttexture" "models\SGG\Starwars\Rebel_trooper\helmet_forest"
+	"$phongexponent" "10"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.10.5]"
+	"$phongalbedotint" "0"
+}

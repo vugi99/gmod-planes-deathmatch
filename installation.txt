@@ -1,0 +1,74 @@
+LAST EDIT : v0.6b
+
+REQUIRE A VERY GOOD VPS TO RUN CORRECTLY THE GAMEMODE ! (USE 50% OF AN I5-7500 CORE)
+
+
+Steps to setup the gamemode on your server
+
+1. Install this : https://steamcommunity.com/sharedfiles/filedetails/?id=1722099358 in garrysmod/addons
+2. Put the planes deathmatch gamemode folder in garrysmod/gamemodes
+3. Put this in your ressources.lua or create a ressources.lua in garrysmod/lua/autorun/server :
+resource.AddWorkshop( '1571918906' ) -- [LFS] - Planes
+resource.AddWorkshop( '1730821561' ) -- Gamemode
+resource.AddWorkshop( '184303877' ) -- Resistance And Liberation NPCs and Playermodels
+resource.AddWorkshop( '771487490' ) -- [simfphys] LUA Vehicles - Base
+resource.AddWorkshop( '1258744627' ) -- Shared Textures (REUPLOAD)
+resource.AddWorkshop( '1613393539' ) -- [LFS] T-65 X-Wing Starfighter
+resource.AddWorkshop( '1280136170' ) -- Star Wars: Imperial Pilots (PM's & Ragdoll)
+4.Install this : https://github.com/tyrantelf/gmod-mapvote in garrysmod/addons
+5.Launch the server then stop it
+6. Go to garrysmod/data/mapvote and open "config.txt"
+7. Put this in the config.txt :
+{"RTVPlayerCount":3,"AutoGamemode":false,"MapLimit":24,"TimeLimit":20,"AllowCurrentMap":false,"MapPrefixes":{"1":"gm_flatgras","2":"gm_vexte","3":"gm_jakku","4":"rp_star","5":"gm_deathstar","6":"gm_warmap"},"MapsBeforeRevote":0,"EnableCooldown":false}
+8.If you're using scrds to launch the server go to garrysmod/cfg and open autoexec.cfg and put this :
+"gamemode" "planes_deathmatch"
+"sv_gamemode" "planes_deathmatch"
+9.Enjoy , contact me on Discord to report bugs or talk with me : Voltaism#1399 
+
+MAPS CURRENTLY SUPPORTED (some maps aren't working on my vps but work on my computer server) ( https://steamcommunity.com/sharedfiles/filedetails/?id=1734638815 ):
+gm_flatgrass
+gm_vexten
+gm_vexten_night
+gm_jakku_wreck_v1
+rp_stardestroyer_v2_4_inf
+gm_deathstar_trench_v2_2_inf
+gm_warmap_v5
+
+COMMANDS : 
+"!spawn1" to go in ally team
+"!spawn2" to go in enemy team
+"!refill_ammo" to refill ammo of your plane 
+"!pmenu" show if the current lfs version was tested with this version of Planes Deathmatch
+"!adminshop" display everyone points and allow to change points of players (SuperAdmin)
+"!help" display the welcome panel
+
+
+ConVars (editable on server console only): 
+"pldm_number_bots" (default:5) Change the number of bots in each team
+"pldm_bases_hp" (default:40000) Change the health of bases
+"pldm_points_time" (default 200 ) number of time in seconds between points (NEED RESTART)
+"pldm_number_points" (default 10) number of points given each time (pldm_points_time)
+"pldm_player_rocket" (default : 1) 1 = enabled , 0 = disabled enable or not the player rocket function when he try to get out then kill him after 2 seconds
+"pldm_anti_spam" (default : 1) 1 = enabled, 0 = disabled enable or not the anti spam system who teleport the plane when he is shooting at it and when he is too near of the enemy base
+"pldm_optio_bases_hp" (default : 50000) health of optional mode bases
+"pldm_remove_bot_when_ply" (default : 0) 1 = enabled , 0 = disabled a player count as a bot (no more planes than pldm_number_bots in each team)
+"pldm_print_base_life" (default : 1) 1 = enabled , 0 = disabled print a message when a base loose hp
+"pldm_bot_plane_allied" (default : "lunasflightschool_spitfire") allied bot plane entity
+"pldm_bot_plane_alliedstarwars" (default : "lunasflightschool_xwing") starwars allied bot plane entity
+"pldm_bot_plane_enemy" (default : "lunasflightschool_bf109") enemy bot plane entity
+"pldm_bot_plane_enemystarwars" (default : "lunasflightschool_tiefighter") starwars enemy bot plane entity
+"pldm_auto_reload" (default : 1) 1 = enabled , 0 = disabled does auto reload is enabled or not
+"pldm_auto_reload_time_primary" (default : 5) time to reload the primary ammo with auto reload
+"pldm_auto_reload_time_secondary" (default : 10) time to reload the secondary ammo with auto reload
+"pldm_invincible_time" (default : 10) invincible time after spawn
+
+Custom maps :
+You have to edit 1 table at the start of the init.lua to make a custom map support
+
+Shop System included :
+Press SpawnMenu key to open (default : a/q)
+To add some planes you have to make tables at the start (commented table example) of the init.lua
+
+
+I RECOMMEND TO SET THE TICKRATE TO 66 (default) IF YOU HAVE A GOOD VPS (better bots)
+OR SET IT TO 33 (MIN)

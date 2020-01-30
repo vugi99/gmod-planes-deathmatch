@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGG\starwars\rebel_trooper/BreenHands"
+	"$bumpmap" "models\SGG\starwars\rebel_trooper/BreenHands_normal"
+	"$halflambert" 1
+
+                "$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+}

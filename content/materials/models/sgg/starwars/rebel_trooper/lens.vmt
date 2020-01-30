@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_combine\health_charger_glass"
+	"$Envmap"             "Engine/eye-reflection-cubemap-"    // Reflection environment map
+	"$translucent" 1
+ 	"$model" 1
+	"$nodecal" 1
+ 	"$refractamount" ".06"
+	"$REFRACTTINT" "{246 250 255}"
+	"$scale" "[1 1]"
+ 	"$dudvmap" "Models/effects/fisheyelens_dudv"
+	"$normalmap" "Models/effects/fisheyelens_normal"
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "models/props_c17/fisheyelens_DX60"
+	}
+
+}
