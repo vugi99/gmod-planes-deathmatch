@@ -224,7 +224,7 @@ AllMaps["gm_jakku_wreck_v1"] = {
     ["BotsAngle2"] = 90,
 }
 
-AllMaps["rp_stardestroyer_v2_4_inf"] = {
+AllMaps["rp_stardestroyer_v2_5_inf"] = {
     ["StarWarsMap"] = "true",
     ["Base1Pos"] = {
                 ["Posx"]  = 10938,
@@ -1082,7 +1082,6 @@ function hyperspacespawn(Ship,x,y,z,angle)
     hyperspaceent:SetKeyValue("SpawnModel", "0")
     hyperspaceent:SetKeyValue("ActualModel", "")
     hyperspaceent:SetKeyValue("Entity", Ship)
-    hyperspaceent:SetOwner("thx_for_the_if_not_IsValid(value)_then_return_end")
     hyperspaceent:SetPos(Vector(x,y,z))
     hyperspaceent:SetAngles(Angle(0,0,0) + Angle(0,angle,0))
     hyperspaceent:Spawn()

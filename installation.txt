@@ -1,4 +1,4 @@
-LAST EDIT : v0.6b
+LAST EDIT : v0.6.2-3b
 
 REQUIRE A VERY GOOD VPS TO RUN CORRECTLY THE GAMEMODE ! (USE 50% OF AN I5-7500 CORE)
 
@@ -30,7 +30,7 @@ gm_flatgrass
 gm_vexten
 gm_vexten_night
 gm_jakku_wreck_v1
-rp_stardestroyer_v2_4_inf
+rp_stardestroyer_v2_5_inf
 gm_deathstar_trench_v2_2_inf
 gm_warmap_v5
 

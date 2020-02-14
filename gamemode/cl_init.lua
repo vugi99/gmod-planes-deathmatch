@@ -1,6 +1,6 @@
 -- DO NOT REUPLOAD THIS FILE
 include( "shared.lua" )
-local pldm_version = "Planes Deathmatch 0.6.2-2b" --DO NOT EDIT THIS LINE
+local pldm_version = "Planes Deathmatch 0.6.2-3b" --DO NOT EDIT THIS LINE
 local CurrentMap = {}
 
 local AllPlanesallied = {}
